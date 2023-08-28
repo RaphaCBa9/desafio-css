@@ -34,14 +34,21 @@ body {
 }
 
 .container {
+  background: none;
+}
+
+.form-card {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  block-size: 100vh;
+  flex-wrap: wrap;
+  background: none;
 }
 
+
 .card-container {
+  position: absolute;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -60,10 +67,7 @@ body {
   padding: 1rem;
   border-radius: 1rem;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
-  background-color: #f7d736;
-  transition: background-color 0.3s;
   font-family: 'Permanent Marker', cursive;
-  rotate: 5deg;
   ;
 }
 
@@ -81,6 +85,70 @@ body {
   font-size: 1.5rem;
   font-weight: bold;
   color: #000;
+}
+
+.card-color-1 {
+  background-color: #ead3a7;
+}
+
+.card-color-2 {
+  background-color: #9de0f5;
+}
+
+.card-color-3 {
+  background-color: #ef89ba;
+}
+
+.card-color-4 {
+  background-color: #fae890;
+}
+
+.card-color-5 {
+  background-color: #abe9c1;
+}
+
+.card-rotation-1 {
+  transform: rotate(5deg);
+}
+
+.card-rotation-2 {
+  transform: rotate(-5deg);
+}
+
+.card-rotation-3 {
+  transform: rotate(10deg);
+}
+
+.card-rotation-4 {
+  transform: rotate(-10deg);
+}
+
+.card-rotation-5 {
+  transform: rotate(8deg);
+}
+
+.card-rotation-6 {
+  transform: rotate(-8deg);
+}
+
+.card-rotation-7 {
+  transform: rotate(3deg);
+}
+
+.card-rotation-8 {
+  transform: rotate(-3deg);
+}
+
+.card-rotation-9 {
+  transform: rotate(14deg);
+}
+
+.card-rotation-10 {
+  transform: rotate(-12deg);
+}
+
+.card-rotation-11 {
+  transform: rotate(12deg);
 }
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
