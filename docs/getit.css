@@ -48,8 +48,8 @@ body {
 .form-card {
   display: flex;
   flex-direction: column;
-  width: 35%;
-  height: 23%;
+  width: 30%;
+  height: 20%;
   box-shadow: .1rem .1rem .6rem #4c4c4c;
   padding: .15rem;
   border-radius: .3rem;
@@ -94,7 +94,7 @@ body {
 .form-card {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: flex-start;
   margin-top: 2rem;
 }
